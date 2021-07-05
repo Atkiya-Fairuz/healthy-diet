@@ -1,3 +1,49 @@
+body{
+    font-family: 'STIX Two Math', serif;
+    margin: 0;
+}
 h1{
-    color: darkblue;
+    font-size: 40px;
+    padding: 1%;
+    text-align: center;
+    color: green;
+    
+}
+.healthy{
+    color: yellowgreen;
+
+}
+.phase{
+    color: maroon;
+    border: 2px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+       
+}
+.half-width img{
+    width: 500px;
+}
+
+.egg{
+    display: flex;
+}
+#fluid{
+    box-shadow: 20px 20px 50px orange;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}
+#fruit{
+    box-shadow: 20px 20px 50px purple;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    border-radius: 5px;
+
 }
